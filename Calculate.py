@@ -24,6 +24,9 @@ number_three = input('Enter the third number: ')
 number_four = input('Enter the fourth number: ')
 number_three = int(number_three)
 number_four = int(number_four)
-print('The program calculationg, please wait...')
+print('The program calculating, please wait...')
 result = number_three * number_four
 print('The Result is: ' + str(result))
+
+print('Thank You For Using This Program')
+print('See You Again')
