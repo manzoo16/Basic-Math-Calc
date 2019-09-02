@@ -4,45 +4,51 @@
 # In[ ]:
 
 
-print('\033[1;32mWelcome to the Python Math Operator Program - Multiply\033[1;32m')
-
-print ('\033[1;31m---------------------------------------------\033[1;m\n')
+print ('\033[1;31m============================================\033[1;m\n')
 print('''\033[1;34m##     ##     ##   ##    ##  #######  #####\033[1;m''')
 print('''\033[1;34m#### ####   ## ##  ####  ##    ###   #     #\033[1;m''')
 print('''\033[1;34m## ##  ##  ####### ##  ####  ###     #     #\033[1;m''')
 print('''\033[1;34m##     ## ##    ## ##    ## #######   #####\033[1;m''')
-print ('\033[1;31m---------------------------------------------\033[1;m\n')
-
+print ('\033[1;31m============================================\033[1;m\n')
+print("   Python Math Operator")
+print ('\033[1;31m  ======================\033[1;m\n')
 print('\033[1;31m   Author:   Technical Manzoo\033[1;m\n')
 print('\033[1;31m   Github:   Manzoo16\033[1;m\n')
 print('\033[1;31m   Telegram: @TechnicalManzoo\033[1;m\n')
 print('\033[1;31m   Web:      jajabtech.tk\033[1;m\n')
-
-
-
-number_one = input('\033[36m[*]Enter the number: \033[36m')
-number_two = input('\033[36m[*]Multiply By: \033[36m')
-number_one = int(number_one)
-number_two = int(number_two)
-print('The Manzoo program calculating Result.... ')
-print('''\033[1;34mPlease Wait..........\033[1;m''')
-print('==================')
-result = number_one * number_two
-print ('The Result is: ' + str(result))
-print('==================')
-
-    
-number_three = input('\033[36m[*]Enter the number: \033[36m')
-number_four = input('\033[36m[*]Multiply By: \033[36m')
-number_three = int(number_three)
-number_four = int(number_four)
-print('\033[1;32mThe program calculating, please wait...\033[1;32m')
-result = number_three * number_four
-print('==================')
-print('\033[0mThe Result is: \033[0m' + str(result))
-print('==================')
-
-print ('\033[1;31m---------------------------------------------\033[1;m\n')
-print('Thank You For Using This Program')
-print('....GoodBye')
-print ('\033[1;31m---------------------------------------------\033[1;m\n')
+print("\033[1;32m[1] Addition\033[1;32m");
+print("\033[1;32m[2] Subtraction\033[1;32m");
+print("\033[1;32m[3] Multiplication\033[1;32m");
+print("\033[1;32m[4] Division\033[1;32m");
+print("[5] Exit");
+choice = int(input("Enter your choice: "));
+if (choice>=1 and choice<=4):
+    print("\033[36mEnter two numbers: \033[36m");
+    num1 = int(input());
+    num2 = int(input());
+    if choice == 1:
+    	res = num1 + num2;
+    	print('==================')
+    	print("Result = ", res);
+    	print('==================')
+    elif choice == 2:
+    	res = num1 - num2;
+    	print('==================')
+    	print("Result = ", res);
+    	print('==================')
+    elif choice == 3:
+    	res = num1 * num2;
+    	print('==================')
+    	print("Result = ", res);
+    	print('==================')
+    else:
+    	res = num1 / num2;
+    	print('==================')
+    	print("Result = ", res);
+    	print('==================')
+elif choice == 5:
+    print('==================')
+    print("See You Soon, Bye")
+    print('==================')
+else:
+    print("Wrong input..!!");
