@@ -48,6 +48,6 @@ if calculation_type == "/":
                 
 
 if calculation_type == "**":
-    print(A^B)
+    print(A**B)
 
     
