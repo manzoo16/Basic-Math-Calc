@@ -1,0 +1,53 @@
+#########This File I assume must fit in your repository this is degined by me "Harsha Sumanchandra"#######################################
+#########I thought adding this might give an idea of how we can use python for making all sorts of calculators we can think of############
+#########I am a beginner and started learning python since 15 days I hope you like the programme##########################################
+#########In this faulty calculator I've assumed three miss interpreted calculations i.e. 1)56+9=77, 2)45*3=555, 3)56/6=4 .################
+
+print("Calculations is a part of life hence, I am here to help you")
+print("what type of arithmatic operation you want to perform?\n"
+      "type + for addition\n"
+      "type - for subtraction \n"
+      "type * for multiplication\n"
+      "type / for division\n"
+      "type ** to raise the power\n")
+
+
+print("enter your first number")
+A = int(input())
+print("enter your second number")
+B = int(input())
+calculation_type = input()
+
+
+if calculation_type == "+":
+    if (A==56 and B==9) or (A==9 and B==56):
+     print(77)
+
+    else :
+        print(A+B)
+
+elif calculation_type == "-":
+            print(A-B)
+
+elif calculation_type == "*":
+    if(A==45 and B==3) or (A==3 and B==45):
+
+     print(555)
+
+    else :
+     print(A*B)
+
+if calculation_type == "/":
+    if (A==56 and B==6):
+    
+     print(4)
+
+    else :
+     print(A/B)
+    
+                
+
+if calculation_type == "**":
+    print(A**B)
+
+    
