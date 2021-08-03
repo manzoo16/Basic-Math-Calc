@@ -1,4 +1,4 @@
-def main(): 
+def main():
 
     print ('\033[31m============================================\033[1;m\n')
     print('''\033[1;34m##     ##     ##   ##    ##  #######  #####\033[1;m''')
@@ -29,25 +29,25 @@ def main():
     	    print('==================')
     	    print("Result = ", res);
     	    print('==================')
-            main()	
+    	    main()
         elif choice == 2:
     	    res = num1 - num2;
     	    print('==================')
     	    print("Result = ", res);
     	    print('==================')
-            main()
+    	    main()
         elif choice == 3:
     	    res = num1 * num2;
     	    print('==================')
     	    print("Result = ", res);
     	    print('==================')
-            main()
+    	    main()
         else:
     	    res = num1 / num2;
     	    print('==================')
     	    print("Result = ", res);
     	    print('==================')
-            main()
+    	    main()
     elif choice == 5:
         print('==================')
         print("Thank you for using this program. Bye!");
@@ -62,6 +62,5 @@ def main():
            exit();
        
 main()
-       
         
         
