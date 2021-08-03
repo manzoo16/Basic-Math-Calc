@@ -28,22 +28,26 @@ def main():
     	    res = num1 + num2;
     	    print('==================')
     	    print("Result = ", res);
-    	    print('==================')  	
+    	    print('==================')
+            main()	
         elif choice == 2:
     	    res = num1 - num2;
     	    print('==================')
     	    print("Result = ", res);
     	    print('==================')
+            main()
         elif choice == 3:
     	    res = num1 * num2;
     	    print('==================')
     	    print("Result = ", res);
     	    print('==================')
+            main()
         else:
     	    res = num1 / num2;
     	    print('==================')
     	    print("Result = ", res);
     	    print('==================')
+            main()
     elif choice == 5:
         print('==================')
         print("Thank you for using this program. Bye!");
